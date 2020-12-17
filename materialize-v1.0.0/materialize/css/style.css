@@ -1,0 +1,61 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.header{
+  font-size:20px;
+  color: #000;
+  
+}
+.nav_bar{
+  background-color: #000;
+}
+
+body {
+  background-color: #27b56b;
+}
+
+.imagem {
+ 
+  background-color: aliceblue;
+}
+
+.video-container {
+  margin:50px;
+}
+
+.circles {
+  display:flex;
+  justify-content: space-around;
+}
+#circles_text {
+  background-color: #FFF;
+  background: linear-gradient(0deg, #FFF 82%, #27b56b 0%);
+  height: 300px;
+}
+#circle_mobile {
+  background-color: #FFF;
+  background: linear-gradient(0deg, #FFF 95%, #27b56b 0%);
+  height: 300px;
+}
+.circle{
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  border: 2px solid white;
+  background: #27b56b;
+}
+.circle_mobile_shape {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background: #27b56b;
+}
+
+.vertical > * {
+  display: block;
+}

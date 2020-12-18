@@ -59,3 +59,51 @@ body {
 .vertical > * {
   display: block;
 }
+
+#video_header {
+  display:flex;
+  justify-content: space-around;
+}
+
+#underneath_video_text {
+  font-size:25px;
+}
+
+#vertical_text{ 
+  transform: rotate(270deg);
+  font-size:15px;
+}
+
+#middle_text {
+  color: #FFF;
+  font-size: 35px;    
+  line-height: 1.1;
+}
+
+#central_text {
+  text-align:center; 
+  font-size:45px;  
+  padding-top: 50px; 
+}
+
+#white_container{
+  text-align: center;
+  display: block;
+}
+
+#white_container_text_left {
+  color: #27b56b;
+}
+
+#white_container_middle_text {
+  word-break: break-word; 
+  text-align:center;
+}
+
+#underneath_container_text {
+  text-align: center;
+}
+
+#underneath_container_right_text {
+  color:#FFF;
+}

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Druk-Medium", sans-serif !important;
+  src: url("/fonts/druk/Druk-Medium.otf");
+}
 html {
   scroll-behavior: smooth;
 }
@@ -8,113 +12,128 @@ html {
     font-size: inherit;
 }
 
+#header_text {
+  display: -webkit-inline-box;
+  align-items: center;
+  font-family: "Druk-Medium", sans-serif !important;
+
+}
+#middle_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#text_header {
+  z-index: 998;
+  font-size:45px;
+  font-family: "Druk";
+  padding-left: 200px;
+  position: relative;
+  letter-spacing: 4px;
+
+}
+#side_text {
+  z-index: 998;
+  font-size: 12px;
+  color: #fff;
+  padding-left: 350px;
+  position: relative;
+  font-size: 13px;
+  letter-spacing: 1px;
+
+}
+#icon_family {
+  padding-top: 250px;
+  padding-left: 520px;
+  position: absolute;
+  display: flex;
+}
+
+#background_arrow {
+  display: flex;
+  position: absolute;
+  padding-top: 160px;
+}
+#background_arrow_black {
+  z-index: 998;
+  display: flex;
+  position: absolute;
+  padding-top: 35px;
+}
+#logo_container {
+  display: flex;
+}
+#logo_ie {
+  padding-left: 100px;
+
+}
+#logo_amib {
+  width: 55px;
+  background-color: #fff;
+  height: 55px;
+  margin-left: 60px;
+  text-align: center;
+}
+#above_social_text {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+#bottom_text {
+  display: flex;
+  justify-content: center;
+}
+
+#header_higiene {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 4px;
+
+}
+#card {
+  display: flex;
+}
+#separator {
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+}
+ #left_arrow {
+  font-size: 130px;
+  padding-right: 90px;
+  color: #fff;
+ }
+ #right_arrow {
+  font-size: 130px;
+  padding-left: 90px;
+  color: #fff;
+ }
+ #bottom_text_right {
+  z-index: 1; position: relative;
+ }
+#video_container{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+
+}
 .header{
   font-size:20px;
   color: #000;
   
 }
 .nav_bar{
-  background-color: #000;
+  background-color: #27b56b;
   position: fixed;
   z-index: 999;
+}
+.nav_bar ul li a{
+  color:black;
 }
 #main_container {
   margin-top:120px;
 }
 body {
   background-color: #27b56b;
-}
-
-.imagem {
- 
-  background-color: aliceblue;
-}
-
-.video-container {
-  margin:50px;
-}
-
-.circles {
-  display:flex;
-  justify-content: space-around;
-}
-#circles_text {
-  background-color: #FFF;
-  background: linear-gradient(0deg, #FFF 82%, #27b56b 0%);
-  height: 500px;
-}
-#circle_mobile {
-  background-color: #FFF;
-  background: linear-gradient(0deg, #FFF 95%, #27b56b 0%);
-  height: 300px;
-}
-.circle{
-  height: 120px;
-  width: 120px;
-  border-radius: 100px;
-  border: 2px solid white;
-  background: #27b56b;
-}
-.circle_mobile_shape {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  border: 2px solid white;
-  background: #27b56b;
-}
-
-.vertical > * {
-  display: block;
-}
-
-#video_header {
-  display:flex;
-  justify-content: space-around;
-}
-
-#underneath_video_text {
-  font-size:25px;
-}
-
-#vertical_text{ 
-  transform: rotate(270deg);
-  font-size:15px;
-}
-
-#middle_text {
-  color: #FFF;
-  font-size: 35px;    
-  line-height: 1.1;
-}
-
-#central_text {
-  text-align:center; 
-  font-size:45px;  
-  padding-top: 50px; 
-}
-
-#white_container{
-  text-align: center;
-  display: block;
-}
-
-#white_container_text_left {
-  color: #27b56b;
-}
-#white_container {
-  text-align: center;
-  display: block;
-}
-#white_container_middle_text {
-  word-break: break-word; 
-  text-align:center;
-}
-
-#underneath_container_text {
-  font-size:40px;  
-  text-align: center;
-}
-
-#underneath_container_right_text {
-  color:#FFF;
 }

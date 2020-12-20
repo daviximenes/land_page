@@ -6,29 +6,36 @@
   <title>Teste -  C3C</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
    <nav class="nav_bar" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
-         <div class = "card-panel">
-            <img  src = "https://secureservercdn.net/50.62.174.113/8vp.da9.myftpupload.com/wp-content/uploads/2018/09/Group-92@2x-300x65.png" 
-               alt = "" 
-               class = "responsive-img">		
+         <div id="logo_container">
+            <img id="logo_ie" src="icons/IE_Logo_negativo.png">             	
+            <div id="logo_amib">
+               <img src="icons/amib.png">             	
+
+            </div>
          </div>
       </a>
-         <ul class="right hide-on-med-and-down">
-            <li><a href="index.html#index_banner">NONONO NONONO</a></li>
-            <li><a href="index.html#video_header">NONONO NONONO</a></li>
-            <li><a href="index.html#bottom_text">NONONO NONONO</a></li>
+         <ul class="right hide-on-med-and-down" style='color:black'>
+            <li><a href="index.html#index_banner">PÁGINA INICIAL</a></li>
+            <li><a href="index.html#video_header">A CAMPANHA</a></li>
+            <li><a href="index.html#video">VIDEOS</a></li>
+            <li><a href="index.html#bottom_text">QUEM SOMOS</a></li>
+            <li><a href="index.html#bottom_text">PARCEIROS</a></li>
+            <li><a href="index.html#contato">CONTATO</a></li>
          </ul>
 
          <ul id="nav-mobile" class="sidenav">
-            <li><a href="index.html#index_banner">NONONO NONONO</a></li>
-            <li><a href="index.html#video_header">NONONO NONONO</a></li>
-            <li><a href="index.html#bottom_text">NONONO NONONO</a></li> 
+            <li><a href="index.html#index_banner">PÁGINA INICIAL</a></li>
+            <li><a href="index.html#video_header">A CAMPANHA</a></li>
+            <li><a href="index.html#video">VIDEOS</a></li>
+            <li><a href="index.html#bottom_text">QUEM SOMOS</a></li>
+            <li><a href="index.html#bottom_text">PARCEIROS</a></li>
+            <li><a href="index.html#contato">CONTATO</a></li>
          </ul>
          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
@@ -36,159 +43,229 @@
 
    <div class="section no-pad-bot" id="index_banner">
       <div class="container" id="main_container">
-         <div class="row">
-            <div class = "video-container">
-               <iframe width = "540" height = "200"
-               src="https://www.youtube.com/embed/RRdBCJAdqR4" 
-               frameborder = "0" allowfullscreen></iframe>
-            </div>
-            <div class="row s12" id="video_header">
-               <div >
-                  <img  src = "https://secureservercdn.net/50.62.174.113/8vp.da9.myftpupload.com/wp-content/uploads/2018/09/Group-92@2x-300x65.png" 
-                  alt = "" 
-                  class = "responsive-img"> 
-               </div>
+         <div class="row">   
+            <div class="row s12" id="header_text">
                <div>
-                  <ul>
-                     <li class="header col s12 light" id="underneath_video_text_right">&gt;ASSISTA AO VIDEO <br> &nbsp; E CUIDE SE</li>
-                  </ul>
-               
-               </div>   
-            </div>
-            <div class="row s12">
-               <div class="col s6">
-                  <div id="vertical_text">
-                     >&nbsp;&nbsp; >&nbsp;&nbsp;&nbsp;&nbsp; > REDOBRE OS CUIDADOS > > >
+                  <div id="background_arrow">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="256" height="55" viewBox="0 0 626 55" style="margin-left: 220px;">
+                        <text id="_" data-name="&gt;&gt; &gt;&gt;          &gt;" transform="matrix(1, 0, 0, 1, 313, 45)" fill="#fff" font-size="41.667" font-family="SegoeUI, Segoe UI" letter-spacing="0.57em"><tspan x="-312.158" y="0" xml:space="preserve">&gt;&gt; &gt;&gt;          &gt;</tspan></text>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="180" height="55" viewBox="0 0 430 55" style="margin-left: 180px;">
+                        <text id="_" data-name="&gt;&gt; &gt;&gt;      &gt;" transform="matrix(1, 0, 0, 1, 215, 45)" fill="#fff" font-size="41.667" font-family="SegoeUI, Segoe UI" letter-spacing="0.45em"><tspan x="-214.331" y="0" xml:space="preserve">&gt;&gt; &gt;&gt;      &gt;</tspan></text>
+                      </svg>
+                  </div>
+                  <div id="text_header">
+                     > &nbsp;VAMOS<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;DOMINAR O VÍRUS<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;DA COVID-19 <br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;ANTES QUE <br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;ELES NOS ISOLE<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;DE NOVO.
+                  </div>
+
+                  <div id="side_text">
+                     ESTAMOS DIANTES DE UMA<br>
+                     PANDEMIA ARRASADORA.<br>
+                     POUCAS VEZES O MUNDO VIVEU<br>
+                     UMA SITUAÇÃO ASSIM.<br>
                   </div>
                </div>
 
-               <div class="col s6" id="vertical">
-                  <div>
-                     <img  src = "https://secureservercdn.net/50.62.174.113/8vp.da9.myftpupload.com/wp-content/uploads/2018/09/Group-92@2x-300x65.png" 
-                     alt = "" 
-                     class = "imagem responsive-img">   
-                  </div>
-                  <div id="middle_text">
-                     <p>SEU<br>
-                        COMPORTAMENTO<br>
-                        PODE EVITAR<br>
-                        O ISOLAMENTO
-                     </p>
-                  </div>
-                  <div>
-                     <img  src = "https://secureservercdn.net/50.62.174.113/8vp.da9.myftpupload.com/wp-content/uploads/2018/09/Group-92@2x-300x65.png" 
-                     alt = "" 
-                     class = "imagem responsive-img">  
-                  </div>                                  
+               <div id="icon_family">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="256" viewBox="0 0 370 406">
+                     <defs>
+                       <clipPath id="clip-path">
+                         <rect id="Retângulo_8" data-name="Retângulo 8" width="370" height="406" fill="none"/>
+                       </clipPath>
+                     </defs>
+                     <g id="familia" transform="matrix(1, 0, 0, 1, 0, 0)">
+                       <g id="Grupo_14" data-name="Grupo 14">
+                         <g id="Grupo_13" data-name="Grupo 13" clip-path="url(#clip-path)">
+                           <path id="Caminho_14" data-name="Caminho 14" d="M245.679,57.266c0-1.58-.071-3.162.011-4.736.414-7.877,5.887-13.167,13.774-13.186q27.4-.066,54.8-.008c8.574.016,13.93,5.457,13.943,14.157.033,20.608.055,41.218-.041,61.826a7.167,7.167,0,0,0,2.827,6.258c11.256,9.279,22.34,18.767,33.53,28.127A14.379,14.379,0,0,1,370,161.445q-.081,115.259-.047,230.518c0,8.287-5.447,13.769-13.785,14.014-1.635.048-3.272,0-4.908,0q-167.462,0-334.925,0c-11.273,0-16.243-4.9-16.245-16.151Q.068,276.824,0,163.817c-.01-6.541,2.187-11.256,7.2-15.538Q90.541,77.084,173.639,5.6c1.139-.977,2.242-2,3.438-2.9a12.909,12.909,0,0,1,17.408,1.477q23.6,24.975,47.146,50.007a42.817,42.817,0,0,1,2.878,3.8l1.17-.72m-61.22-26.336c-.412.32-1.066.78-1.666,1.3Q106.846,98.214,30.853,164.14a10.223,10.223,0,0,0-3.887,8.685q.172,100.7.088,201.408V378.7H342.866c.094-.894.2-1.432.2-1.969q.013-103.161-.085-206.32a7.108,7.108,0,0,0-2.31-4.719c-10.933-9.446-21.924-18.831-33.1-27.983a16.063,16.063,0,0,1-6.275-13.471c.107-17.738.039-35.478.039-53.218V66.555H272.588c0,7.126.132,13.93-.041,20.727a12.47,12.47,0,0,1-8.355,11.992c-5.057,1.991-9.964,1.422-13.972-2.614-13.544-13.641-26.99-27.381-40.565-40.992-8.269-8.289-16.7-16.411-25.2-24.736" fill="#fff"/>
+                           <path id="Caminho_15" data-name="Caminho 15" d="M318.736,310.376l-9.952-28.3s-3.777-8.3-9.505-8.663c-4.182-.267-11.875-.014-15.72.143a23.5,23.5,0,0,1-6.23-.568c-4.064-.936-10.011-3.062-11.334-7.624-.086-.3-.169-.572-.252-.841a7.244,7.244,0,0,0,1.117-7.068l-15.837-42.179a31.879,31.879,0,0,0-7.467-10.818,19.656,19.656,0,0,0-13.293-5.1H213.3a19.593,19.593,0,0,0-14.394,6.175,20,20,0,0,0-4.369,7.551l-11.333,25.439-10.022-33.044a17.636,17.636,0,0,0-4.555-7.572A15.18,15.18,0,0,0,157.8,193.5H127.457s-13.526.366-17.548,18.667c0,0-7.33,31.335-9.735,50.744a7.235,7.235,0,0,0,2.939,6.753c-1.759,3.807-6.072,12.3-10.385,14.367H83.815a13.783,13.783,0,0,0-8.6,2.961A17.186,17.186,0,0,0,70.3,293.3c-2.348,5.109-5.72,13.129-7.717,17.932a3.973,3.973,0,0,0,7.251,3.242l6.56-13.732-6.215,31.113h5.606L75.1,350.716a4.222,4.222,0,0,0,4.216,4.381h.137a4.222,4.222,0,0,0,4.207-3.887l1.516-18.868h2.681L89.771,351.2a4.293,4.293,0,0,0,4.078,3.895,4.221,4.221,0,0,0,4.342-4.471l-1.078-18.4h6.093l-5.232-32.291a10.909,10.909,0,0,1,1.9-8.1c3.526-4.923,9.525-13.991,11.175-20.774a7.244,7.244,0,0,0,5.429-5.91l6.78-43.1-3.234,123.9a8.9,8.9,0,0,0,17.774.934l5.385-68.289,6.045,68.373a8.906,8.906,0,0,0,8.868,8.127h.206a8.908,8.908,0,0,0,8.9-9.2l-3.91-122.022,10.135,41.074a7.237,7.237,0,0,0,7.137,5.506l1.2-.019a7.235,7.235,0,0,0,6.659-4.684l15.444-40.961L189.24,299.225h13.891l-2.671,48.037a7.413,7.413,0,0,0,14.786,1.066l4.337-49.1h4.936l4.5,49.128A7.416,7.416,0,0,0,236.4,355.1h.57a7.419,7.419,0,0,0,7.4-7.835L241.7,299.225h12.979l-16.086-76.082,14.717,39.4a7.216,7.216,0,0,0,4.111,4.2s10.291,15.687,22.969,17.656L281,316.724l-1.6,33.647a4.509,4.509,0,0,0,4.5,4.725h.236a4.507,4.507,0,0,0,4.481-4.041l3.476-33.234h1.1l3.367,33.219a4.5,4.5,0,0,0,8.977-.754c-.873-13.121-3.063-48.955-1.376-54.914,2.754,4.078,4.727,10.953,6.658,17.98a4.23,4.23,0,0,0,5.3,2.548,4.3,4.3,0,0,0,2.625-5.525" fill="#fff"/>
+                           <path id="Caminho_16" data-name="Caminho 16" d="M161.425,169.151a18.036,18.036,0,1,1-18.036-18.057,18.046,18.046,0,0,1,18.036,18.057" fill="#fff"/>
+                           <path id="Caminho_17" data-name="Caminho 17" d="M161.425,169.151a18.036,18.036,0,1,1-18.036-18.057,18.046,18.046,0,0,1,18.036,18.057" fill="#fff"/>
+                           <path id="Caminho_18" data-name="Caminho 18" d="M240.007,176.142a18.035,18.035,0,1,1-18.035-18.057,18.046,18.046,0,0,1,18.035,18.057" fill="#fff"/>
+                           <path id="Caminho_19" data-name="Caminho 19" d="M303.522,258.994a11.23,11.23,0,1,1-11.23-11.243,11.236,11.236,0,0,1,11.23,11.243" fill="#fff"/>
+                           <path id="Caminho_20" data-name="Caminho 20" d="M97.109,271.216a10.471,10.471,0,1,1-10.471-10.484,10.478,10.478,0,0,1,10.471,10.484" fill="#fff"/>
+                         </g>
+                       </g>
+                     </g>
+                   </svg>
                </div>
-            </div>
-            <div class="row s12" id="central_text">
-               <p> VAMOS DOMINAR O VIRUS DA COVID-19 <br>
-                  ANTES QUE ELES NOS ISOLE DE NOVO.</p>
             
+                
+              
+            </div>
+            
+      
+         </div>
+      
+      </div>
+   </div>
+
+      <div class="container" >
+         <div class="row">   
+            <div class="col s12" id="middle_text">
+               <p id="above_social_text">ESPALHE O MOMENTO NAS SUAS REDES SOCIAIS</p>
+               <img src="icons/social.png"
+               alt = "" 
+               class = "responsive-img">
+               <p id="separator">v</p>
+               <div id="card">
+                  <p id="left_arrow"> &lt;	 </p>
+                  <img src="icons/card.png"
+                  alt = "" 
+                  class = "responsive-img">
+                  <p id="right_arrow"> &gt;	 </p>
+
+               </div>
+             
+              </div>
+            </div>
+         
+      
+         </div>
+      
+      </div>
+
+
+      <div class="container" >
+         <div class="row">   
+            <div class="row s12" id="middle_text" style="display: flex; flex-direction:row;    justify-content: center;">
+               <img src="icons/covid.png">
+                <div>
+                  <p>
+                     > São mais de 180 mil mortes por COVID-19<br>
+                     &nbsp;&nbsp;&nbsp;no Brasil este ano.<br>
+                     > Essa é a 3ª doença que mais matou no Brasil<br>
+                     &nbsp;&nbsp;&nbsp;em 2020.<br>
+                     > Quase 70 mil vítimas sequer conseguiram<br>
+                     &nbsp;&nbsp;&nbsp;uma vaga na UTI.<br>
+                     > Os pacientes que vão para a UTI ficam em<br>
+                     &nbsp;&nbsp;&nbsp;média 15 dias internados.<br>
+                     <p>
+                        Os momentos de maior contágio acontecem<br>
+                        em aglomerações como festas de casamento,<br>
+                        aniversário, reuniões com amigos ou familiares.<br>
+                        Além de: casas noturnas e bares fechados, espera<br>
+                        de restaurantes, almoços de confraternização,<br>
+                        happy hours, hora do cafezinho ou momentos de<br>
+                        distração nas empresas.
+      
+                     </p>
+                   
+                    </p>
+                </div>
+                
             </div>
       
-         </div>
-      
-      </div>
-   </div>
-
-   <div class="container  hide-on-small-only"  id="circles_text">
-         <div  class="circles">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-         </div>
-         <div class="row" id="white_container">
-
-         <div class="col s6" style="    color: #27b56b;
-         text-align: left;
-         padding-left: 110px;">
-            ESTAMOS DIANTE<br>
-            DE UMA PANDEMIA ARRASADORA.<br>
-            POUCA VEZES O MUNDO VIVEU<br>
-            UMA SITUAÇÃO ASSIM.
-         </div>
-      
-         <div class="col s6" style="text-align: left;">
-            <li>São mais de 180 mial mortes por COVID-19 no Brasil este ano</li>
-            <li>Essa é a 3ª doença que mais matou no Brasil em 2020</li>
-            <li>Quase 70 mil vítimas sequer conseguiram uma vaga na UTI</li>
-            <li>Os pacientes que vão para a UTI ficam em média 15 dias internados</li>
-         </div>
-
-         <div class="col s12" id="white_container_middle_text">
-            <p >
-               TEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTO
-
-            </p>
-         </div>
-      </div>
-
-   </div>
-
-   <div class="container  hide-on-med-and-up" id="circle_mobile">
-   <div  class="circles">
-      <div class="circle_mobile_shape"></div>
-      <div class="circle_mobile_shape"></div>
-      <div class="circle_mobile_shape"></div>
-   </div>
-   <div class="row" id="white_container_text" >
-
-
-   <div class="col s6" style="color: #27b56b;">
-      ESTAMOS DIANTE<br>
-      DE UMA PANDEMIA ARRASADORA.<br>
-      POUCA VEZES O MUNDO VIVEU<br>
-      UMA SITUAÇÃO ASSIM.
-   </div>
-
-   <div class="col s6">
-      <li>São mais de 180 mial mortes por COVID-19 no Brasil este ano</li>
-      <li>Essa é a 3ª doença que mais matou no Brasil em 2020</li>
-      <li>Quase 70 mil vítimas sequer conseguiram uma vaga na UTI</li>
-      <li>Os pacientes que vão para a UTI ficam em média 15 dias internados</li>
-   </div>
-
-   <div class="col s12">
-      <p style="word-break: break-word; text-align:center;">
-         TEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTO
-
-      </p>
-   </div>
-</div>
-
-   </div>
-
-   <div class="container"  id="bottom_text">
-      <div class="row">
-         <div class="row s12" id="underneath_container_text">
-            <p>PREVINA-SE E PROTEJA QUEM VOCÊ AMA: </p>
-         </div>
-         <div class="col s6 offset-s6" id="underneath_container_right_text">
-            <span> 
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-               BLABLALBLABLABL<br>
-            </span>
+            
+             
+               
+            </div>
          
-
+      
          </div>
+
          
+ 
+
+      <div class="container" >
+         <div class="row">   
+            <div class="row s12" id="bottom_text">
+               <div id="background_arrow_black">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="256" height="55" viewBox="0 0 626 55">
+                     <text id="_" data-name="&gt;&gt; &gt;&gt;          &gt;" transform="matrix(1, 0, 0, 1, 313, 45)" fill="#000" font-size="41.667" font-family="SegoeUI, Segoe UI" letter-spacing="0.57em"><tspan x="-312.158" y="0" xml:space="preserve">&gt;&gt; &gt;&gt;          &gt;</tspan></text>
+                   </svg>
+                   <svg xmlns="http://www.w3.org/2000/svg" width="180" height="55" viewBox="0 0 430 55" style="margin-left: 180px;margin-right: 220px;">
+                     <text id="_" data-name="&gt;&gt; &gt;&gt;      &gt;" transform="matrix(1, 0, 0, 1, 215, 45)" fill="#000" font-size="41.667" font-family="SegoeUI, Segoe UI" letter-spacing="0.45em"><tspan x="-214.331" y="0" xml:space="preserve">&gt;&gt; &gt;&gt;      &gt;</tspan></text>
+                   </svg>
+               </div>
+           
+                                
+               <img src="icons/higiene.png">
+               <div id="bottom_text_right">
+                  <p id="header_higiene">
+                     PREVINA-SE<br> 
+                     E PROTEJA QUEM<br>
+                     VOCÊ AMA:
+                  </p>
+                  <p>
+                     >	Use sempre máscaras limpas em locais fechados.<br>
+                     >	Não fique mais de 4 horas com a mesma máscara.<br>
+                     >  Lave bem as mãos e use o álcool em gel com<br> 
+                        frequência.<br>
+                     >  Ao tossir ou espirrar, coloque o rosto na parte <br>
+                        interna do cotovelo.<br>
+                     >  Evite tocar nariz, olhos e boca antes de higienizar <br>
+                        as mãos.<br>
+                     >  Não cumprimente tocando, beijando ou abraçando <br>
+                        pessoas fora de casa.<br>
+                     >  Em encontros maiores, fique em lugares arejados.<br>
+                     >  Mantenha o distanciamento e evite ambientes <br>
+                        fechados com outras pessoas.<br> 
+                  </p>
+                  <p>
+                     Ao surgir qualquer sintoma de gripe, redobre os<br> 
+                     cuidados. Avise as pessoas com quem você esteve<br> 
+                     e se isole mesmo antes do teste, por pelo menos<br> 
+                     7 dias. Lembre-se: os 5 primeiros dias são os de<br> 
+                     maior transmissão.                     
+                  </p>
+               
+               
+               </div> 
+               
+            </div>
+            <div class="container" id="video">
+               <div class = "video-container">
+                  <iframe width = "540" height = "200"
+                  src="https://www.youtube.com/embed/RRdBCJAdqR4" 
+                  frameborder = "0" allowfullscreen></iframe>
+               </div>
+               <div id="video_container">
+                  <div>
+                     > ASSISTA OS VIDEOS<br>
+                     E CUIDE-SE
+                  </div>
+                  <div style="
+                  display: flex;
+                  flex-direction: column;
+                  padding-left: 420px;">
+                     > ESPALHE O MOVIMENTO EM SUAS REDES SOCIAIS
+                     <img src="icons/social.png"
+                        alt = "" 
+                        class = "responsive-img">
+                  </div>
+               </div>
+            </div>
+              
+         </div>
+        
       </div>
-   </div>
+      <div class="container" id="contato" style="text-align: center">
+        <p style="    letter-spacing: 50px;
+        font-size: 20px;
+        font-weight: 700;">IMPRENSA</p>
+        <p style="    font-size: 50px;
+        line-height: 0.9;
+        font-weight: bold;
+        border-bottom: 1px solid #fff;">
+           ANALÍTICA<br>
+           COMUNICAÇÃO
+         </p>
+         <p style="    border-bottom: 1px solid #fff;">
+            WWW.ANALITACA.INF.BR</p>
+         <p style="    border-bottom: 1px solid #fff;">
+            ANALITICA@ANALATIC.INF.BR</p>
+         <p>
+            CONTATO INSTITUTO<br>
+            <P>CAMPANHA@INSTITUTOESTATER.ORG.BR</P>
+         </p>
+      </div>
+     
+
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>

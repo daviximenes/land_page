@@ -25,6 +25,7 @@ body {
 #header_text {
   display: -webkit-inline-box;
   align-items: center;
+  margin-left: 100px;
 }
 #middle_text {
   display: flex;
@@ -52,7 +53,6 @@ body {
   letter-spacing: 10px;
   line-height: 1;
   color: #353535;
-
 }
 #side_text {
   z-index: 998;
@@ -62,12 +62,11 @@ body {
   position: relative;
   font-size: 13px;
   letter-spacing: 3px;
-
 }
 #home_container{
   width: max-content !important;
   padding-top: 50px;
-
+  margin-left: 20%;
 }
 #home_texto {
   position:absolute;display:block;padding-left:450px;z-index:998;
@@ -100,7 +99,9 @@ body {
   padding-top: 35px;
 }
 #covid_text {
-  display: flex; flex-direction:row;    justify-content: center;
+  display: flex; 
+  flex-direction:row;    
+  justify-content: center;
 }
 
 #logo_amib {
@@ -111,6 +112,8 @@ body {
 #above_social_text {
   font-size: 25px;
   letter-spacing: 2px;
+  color: #353535;
+
 }
 #bottom_text {
   display: flex;
@@ -132,18 +135,36 @@ body {
 }
 #separator {
   font-size: 25px;
+  font-family: Avenir;
   font-weight: bolder;
   margin: 0;
 }
  #left_arrow {
-  font-size: 130px;
+  font-size: 140px;
   padding-right: 90px;
   color: #fff;
+  font-family: Avenir;
  }
  #right_arrow {
-  font-size: 130px;
+  font-size: 140px;
   padding-left: 90px;
   color: #fff;
+  font-family: Avenir;
+ }
+ #icon_social_card a{
+  margin: 5px;
+ }
+ #icon_social_video {
+  display: flex ;
+  justify-content: flex-end ;
+  width: 100% ;
+  margin-right: 25px ;
+  margin-top: 20px ;
+  max-width: 55em !important;
+
+ }
+ #icon_social_video a {
+   margin: 5px;
  }
  #bottom_text_right {
   z-index: 1; position: relative;
@@ -151,10 +172,27 @@ body {
 #video_container{
   display: flex;
   flex-direction: row;
+  position: absolute;
   width: max-content;
-  margin-top: -80px;
-  margin-left: 100px;
+  margin-top: 440px;
+  z-index: -1;
+}
+#video_text_left {
+  font-size:25px;
+  letter-spacing: 2px;
+  color:#353535;
+  letter-spacing: 2px;
 
+}
+#video_text_right {
+  display: inline-grid;
+  padding-left: 420px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #353535;
+}
+#video_text_right img {
+  justify-self: center;
 }
 .header{
   font-size:20px;
@@ -176,9 +214,17 @@ body {
   color:black;
 }
 #main_container {
-  margin-top:120px;
+  margin: 120px 0px 0px 0px;
+  position: relative;
+  left: 10%;
 }
-
+#download_video {
+  color: black;
+  font-family:Avenir;
+}
+#download_video:hover {
+  color:#FFF;
+}
 .primeiro_titulo{
   color: #fff;
   font-size:60px;
@@ -358,7 +404,20 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media only screen and (max-width: 600px) {
+
+.carousel-item p{
+  z-index: 999;
+  position: relative;
+}
+
+.protejaDiv{
+  display: flex;
+  padding-left:180px;
+  font-size: 11px !important;
+  font-weight: bold !important;
+}
+
+@media only screen and (max-width: 750px) {
   #home_container
   {
     width:fit-content !important;
@@ -385,18 +444,11 @@ body {
     align-items: center;
     flex-direction: column !important;
   }
-
-  #parceiros_mobile{
-    width: 400% !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center;
-    flex-direction: column !important;
-  }
   #parceiros_mobile p{
     position: relative;
     font-size: 40px;
     width: max-content;
+    right: 20%;
   }
   #parceiros_div {
     width: fit-content;
@@ -472,4 +524,9 @@ body {
     background-color:#fff;
     margin-left: 20px;
   }
+}
+
+
+.divMobile{
+  display: none !important;
 }

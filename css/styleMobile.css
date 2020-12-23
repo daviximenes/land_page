@@ -1,0 +1,391 @@
+@font-face {
+    font-family: Druk;
+    src: url("../Druk-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: Avenir;
+    src: url("../fonts/Metropolis/Metropolis-Light.otf") format("opentype");
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #27b56b;
+    font-family: Druk;
+    width: fit-content;
+}
+
+/*Navbar */
+.nav_bar{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    height: fit-content;
+    background-color: #27b56b;
+    position: fixed;
+    z-index: 999;
+    box-shadow: none;
+    letter-spacing: 2.5px !important;
+    line-height: 2;
+}
+
+.nav_bar ul li a{
+    color: #353535 !important;
+    font-size: 25px !important;
+    line-height:1.3
+}
+
+#navbar-items li a:hover{
+    color: #fff;
+}
+#navbar-items li a{
+    letter-spacing:2px;
+    color:#353535;
+    font-size: 18px;
+}
+
+#ul_mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#ul_mobile li a:hover{
+    color: #fff;
+    border: 1px solid #FFF;
+}
+
+.nav-wrapper{
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+}
+
+.logos{
+    display: flex;
+}
+
+.logos div{
+    width: 143px;
+    height: 143px;
+    padding: 18px;
+    background: white;
+    margin-left: 10px;
+}
+
+/*HOME*/
+
+#home_container
+{
+    margin-top: 180px;
+    position: relative;
+    z-index: 1;
+}
+
+#header_texto{
+    font-size: 125px;
+    line-height: 1;
+    letter-spacing: 10px;
+    color:#353535;
+}
+
+#home_texto{
+    position: absolute;
+    top: -3%;
+    left: 45%;
+    z-index: 999;
+}
+
+#obedeca {
+    font-size: 30px;
+    color: #fff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 10px;
+
+}
+
+.protejaDiv{
+    display: flex;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color:#353535;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 8px;
+}
+
+#proteja p{
+    letter-spacing: 8px;
+    margin: 0 !important;
+}
+
+.divDesktop{
+    display: none !important;
+}
+
+#main_container {
+    width: max-content !important;
+    position: relative;
+}
+
+.dominarVirus {
+    display:flex;
+    flex-direction: column;
+}
+
+#text_inicio {
+    z-index: 998;
+    font-size:70px;
+    position: relative;
+    letter-spacing: 10px;
+    line-height: 1;
+    color: #353535;
+}
+#side_text {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 4.5px;
+    margin-left: 72.5px;
+}
+
+#icon_family{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+}
+
+#social_container {
+    width: max-content !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 5%;
+}
+
+#card {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow{
+    font-family: Avenir;
+    font-size: 100px;
+    color: #FFF;
+    margin: 15px;
+}
+
+#icon_social_card a {
+    margin: 5px;
+}
+
+#separator {
+    font-size: 35px;
+    margin: 0;
+    font-family: Avenir;
+}
+#above_social_text {
+    font-size: 30px;
+    color: #353535;
+    margin: 0;
+}
+
+#covid_container{
+    position: relative;
+    left: 5%; 
+}
+
+#side_text_covid {
+    display: flex;
+    flex-direction: row;
+}
+
+#covid_text > div{
+    display: flex;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family : Avenir;
+}
+
+#white_arrow {
+    color: #fff;
+}
+
+#text_covid_under{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family : Avenir;
+    margin-left: 190px;
+    margin-top: 0 !important;
+}
+
+#bottom_text{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family : Avenir;
+}
+
+#header_higiene {
+    font-size: 60px;
+    line-height: 1;
+    font-family: Druk;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 12px;
+}
+
+#carrosel_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#video_container{
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#video_container > div {
+    color: #353535;
+    font-size: 18px;
+    letter-spacing:1px;
+    margin-top:-50px;
+}
+
+#icon_social_video {
+    display: flex ;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 25px ;
+    max-width: 55em !important;
+  
+}
+#icon_social_video a {
+    margin: 5px;
+}
+
+#quem_somos_container {
+    display: flex;
+    margin-top: 50px;
+}
+
+#titulo {
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+#titulo p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.primeiro_titulo{
+    color: #fff;
+    font-size:60px;
+    letter-spacing: 9px;
+    font-family: Druk;
+    font-weight: lighter;
+}
+.segundo_titulo {
+    color: #fff;
+    font-size:50px;
+    letter-spacing: 9px;
+    font-family: Druk;
+    font-weight: lighter;
+}
+.terceiro_titulo {
+    color: #fff;
+    font-size:50px;
+    letter-spacing: 9px;
+    font-family: Druk;
+    font-weight: lighter;
+}
+.descricao {
+    color: #000;
+    font-size:25px;
+    letter-spacing: 2px;
+    font-family: Druk;
+    font-weight: lighter;
+}
+
+#contato_container {
+    text-align: center;
+    margin-bottom: 300px;
+    width: 60%;
+    line-height: 2;
+    left: 5%;
+    position: relative;
+  }
+  #imprensa {
+    letter-spacing: 50px;
+    font-size: 33px;
+    font-weight: 700;
+    color: #353535;
+  
+  }
+  #download_video {
+    color: black;
+    font-family:Avenir;
+  }
+  #download_video:hover {
+    color:#FFF;
+  }
+  #analitica {
+    font-size: 80px;
+    line-height: 0.9;
+    margin:0;
+    border-bottom: 1px solid #fff;
+    letter-spacing:9px;
+    color: #353535;
+  }
+  
+#info {
+    margin:0;
+    border-bottom: 1px solid #fff;
+    font-size: 40px;
+    color: #353535;
+
+}
+#info_noborder {
+    margin:0;
+    font-size: 40px;
+    color: #353535;
+
+}
+
+  #parceiros_div {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    width: 100% !important;;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff !important;
+  }
+
+  #parceiros_mobile{    
+    margin-left: 5%;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  #parceiros_mobile p{
+    position: relative;
+    font-size: 40px;
+    width: max-content;
+    right: 20%;
+  }
